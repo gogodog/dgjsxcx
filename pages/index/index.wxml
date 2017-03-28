@@ -7,4 +7,7 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view class="btnmotto">
+    <text class="user-motto">{{btn_title}}</text>
+  </view>
 </view>

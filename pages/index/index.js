@@ -3,7 +3,8 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello World',
+    motto: 'welcome to dgjs',
+    btn_title: '大国简史',
     userInfo: {}
   },
   //事件处理函数
