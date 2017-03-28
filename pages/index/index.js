@@ -10,7 +10,16 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../search/search'
+      url: '../search/search',
+      success:function(m){
+        console.log('ok:' + JSON.stringify(m));
+      },
+      fail:function(m){
+        console.log('fail:' + JSON.stringify(m));
+      },
+      complete:function(m){
+        console.log('complete:' + JSON.stringify(m));
+      }
     })
   },
   onLoad: function () {
